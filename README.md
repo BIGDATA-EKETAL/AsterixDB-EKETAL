@@ -32,5 +32,4 @@ Estos son los pasos para ejecutar AsterixDB y un ejmplo básico con EKETAL en su
 * Ya puede ejecutar y realizar consultas en su navegador en:
 
         http://localhost:19001
-        
-* Lea más [documentaciones] (https://ci.apache.org/projects/asterixdb/index.html) para conocer el modelo de datos, el lenguaje de consulta y cómo crear una instancia de clúster de AsterixDB.
+* Lea más [documentaciones](https://ci.apache.org/projects/asterixdb/index.html) para conocer el modelo de datos, el lenguaje de consulta y cómo crear una instancia de clúster de AsterixDB.
