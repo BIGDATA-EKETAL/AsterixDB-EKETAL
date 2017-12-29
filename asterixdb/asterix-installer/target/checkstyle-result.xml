@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/driver/InstallerUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/driver/InstallerDriver.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/StartCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/LogCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/CreateCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/BackupCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/UninstallCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/DeleteCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/RestoreCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/StartNodeCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/StopCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/AlterCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/AbstractCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/InstallCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/HelpCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/ConfigureCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/ICommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/VersionCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/ShutdownCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/CommandHandler.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/CommandConfig.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/DescribeCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/ValidateCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/command/StopNodeCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/java/org/apache/asterix/installer/error/InstallerException.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/transaction/RecoveryIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/transaction/DmlRecoveryIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ClusterExecutionIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ManagixExecutionIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/InstallerLicensingIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixExternalLibraryIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixClusterLifeCycleIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/MetadataReplicationIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ManagixSqlppExecutionIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixRestartIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AbstractExecutionIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ReplicationIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixLifecycleIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixInstallerIntegrationUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/clusters/demo/demo.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/clusters/local/local_chained_declustering_rep.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/clusters/local/local_metadata_only_rep.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/clusters/local/local.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/zookeeper/start_zk.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/left-outer-join.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/delete.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/spatial-join.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/simple-aggregation.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/ten-of-each.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/group-sort-limit.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/join-group.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/function-definition.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/left-outer-join-aggr.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/equi-join.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/left-outer-fuzzy-join.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/lookup.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/insert.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/load.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/universal.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/create.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/range-scan.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/examples/mugshot/aql/function-use.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/scripts/verify.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/scripts/validate_ssh.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/hadoop-0.20.2/bin/hadoop-config.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/hadoop-0.20.2/conf/hadoop-env.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/conf/asterix-configuration.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/conf/managix-conf.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/main/resources/conf/log4j.properties">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/docker/cluster-config.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/big_object_20M/big_object_20M.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/external_index/external_index.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/external_index/external_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/external_index/external_index.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/external_index/external_index.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/external_index/external_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/query_after_restart/dataset-with-meta-record/dataset-with-meta-record.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.9.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.6.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_ngram_index/primary_plus_correlated_ngram_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index/primary_plus_ngram_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_ngram_index_filtered/primary_plus_ngram_index_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.6.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.9.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_correlated_secondary_index/primary_plus_keyword_correlated_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index_filtered/primary_plus_default_secondary_index_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete/primary_plus_rtree_index_insert_and_delete.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_filtered/primary_plus_rtree_index_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.9.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.6.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/primary_plus_multiple_correlated_secondary_indices.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index/primary_plus_rtree_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.6.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.9.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_correlated_rtree_index/primary_plus_correlated_rtree_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_default_secondary_index/primary_plus_default_secondary_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_index_only/primary_index_only.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_multiple_secondary_indices/primary_plus_multiple_secondary_indices.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_ngram_index/primary_plus_ngram_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_keyword_secondary_index/primary_plus_keyword_secondary_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/primary_plus_rtree_index_insert_and_delete_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only_filtered/primary_index_only_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_secondary_index/primary_plus_default_secondary_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/temp_primary_plus_rtree_index/primary_plus_rtree_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_keyword_secondary_index_filtered/primary_plus_keyword_secondary_index_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_index_only/primary_index_only.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.9.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_default_correlated_secondary_index/primary_plus_default_correlated_secondary_index.6.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.8.txnqar.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.5.txnqbc.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.9.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/primary_plus_multiple_secondary_indices_filtered.4.txneu.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/dml_after_restart/multiple_secondary_indices/multiple_secondary_indices.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/dml_after_restart/multiple_secondary_indices/multiple_secondary_indices.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/dml_after_restart/multiple_secondary_indices/multiple_secondary_indices.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/dml_after_restart/multiple_secondary_indices/multiple_secondary_indices.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/dml_after_restart/multiple_secondary_indices/multiple_secondary_indices.4.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.6.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.7.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_insert_after_recovery/insert_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.6.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataverse_recovery/dataverse_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.6.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.7.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/insert_after_recovery/insert_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.6.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/secondary_index_recovery/secondary_index_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.6.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.7.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/function_recovery/function_recovery.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.6.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.5.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_load_after_recovery/load_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/datatype_recovery/datatype_recovery.6.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.6.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.5.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/load_after_recovery/load_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.5.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_dataset_recovery/dataset_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.7.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.6.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/dataset_recovery/dataset_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.6.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/delete_after_recovery/delete_after_recovery.7.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.6.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.5.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.8.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_delete_after_recovery/delete_after_recovery.7.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.6.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.3.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.4.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.1.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.5.errddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/queries/recovery_ddl/temp_secondary_index_recovery/secondary_index_recovery.2.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/setup_teardown/configure_and_validate.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/setup_teardown/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/setup_teardown/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/setup_teardown/shutdown.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/configure_and_validate.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_recovery/shutdown.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/big_object_20M/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/big_object_20M/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/big_object_20M/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/external_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/external_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/external_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/dataset-with-meta-record/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/dataset-with-meta-record/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/query_after_restart/dataset-with-meta-record/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_ngram_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_ngram_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_ngram_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_ngram_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_ngram_index_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_correlated_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_correlated_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_correlated_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_correlated_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_correlated_secondary_indices/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_rtree_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_rtree_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_rtree_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_correlated_rtree_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_default_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_default_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_default_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_default_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_index_only/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_index_only/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_index_only/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_index_only/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_multiple_secondary_indices/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_multiple_secondary_indices/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_multiple_secondary_indices/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_multiple_secondary_indices/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_ngram_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_ngram_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_ngram_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_ngram_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_keyword_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_keyword_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_keyword_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_keyword_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_rtree_index_insert_and_delete_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_rtree_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_rtree_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_rtree_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/temp_primary_plus_rtree_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_keyword_secondary_index_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_index_only/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_correlated_secondary_index/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_correlated_secondary_index/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_correlated_secondary_index/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_default_correlated_secondary_index/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recover_after_abort/primary_plus_multiple_secondary_indices_filtered/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_after_restart/multiple_secondary_indices/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_after_restart/multiple_secondary_indices/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/dml_after_restart/multiple_secondary_indices/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_insert_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_insert_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_insert_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_insert_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataverse_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataverse_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataverse_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataverse_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/insert_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/insert_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/insert_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/insert_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/secondary_index_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/secondary_index_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/secondary_index_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/secondary_index_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/function_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/function_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/function_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/function_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_load_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_load_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_load_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_load_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/datatype_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/datatype_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/datatype_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/datatype_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/load_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/load_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/load_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/load_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_dataset_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_dataset_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_dataset_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_dataset_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataset_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataset_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataset_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/dataset_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/delete_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/delete_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/delete_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/delete_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_delete_after_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_delete_after_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_delete_after_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_delete_after_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_secondary_index_recovery/stop_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_secondary_index_recovery/stop_and_delete.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_secondary_index_recovery/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/transactionts/scripts/recovery_ddl/temp_secondary_index_recovery/create_and_start.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/uninstallLibrary/uninstallLibrary.3.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/uninstallLibrary/uninstallLibrary.2.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/uninstallLibrary/uninstallLibrary.1.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/uninstallLibrary/uninstallLibrary.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.8.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.2.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.3.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.6.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.5.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.7.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.9.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/backupRestore/backupRestore.4.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/installLibrary/installLibrary.1.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/installLibrary/installLibrary.3.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/installLibrary/installLibrary.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/lifecycle/queries/asterix-lifecycle/installLibrary/installLibrary.2.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/asterix-configuration.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-adapters/typed_adapter/typed_adapter.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-adapters/typed_adapter/typed_adapter.3.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-adapters/typed_adapter/typed_adapter.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-parsers/record-parser/record-parser.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-parsers/record-parser/record-parser.2.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-feeds/feed_ingest/feed_ingest.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-feeds/feed_ingest/feed_ingest.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-feeds/feed_ingest/feed_ingest.3.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-feeds/feed_ingest/feed_ingest.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-metadata/functionDataset/functionDataset.1.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-metadata/dataverseDataset/dataverseDataset.1.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-metadata/libraryDataset/libraryDataset.1.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/insert-from-select/insert-from-select.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/insert-from-select/insert-from-select.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/insert-from-select/insert-from-select.3.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/insert-from-select/insert-from-select.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/getCapital/getCapital.2.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/getCapital/getCapital.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/mysum/mysum.1.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/toUpper/toUpper.2.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/library/queries/library-functions/toUpper/toUpper.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/storage-restart/issue-1725/issue-1725.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/storage-restart/issue-1725/issue-1725.3.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/storage-restart/issue-1725/issue-1725.4.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/storage-restart/issue-1725/issue-1725.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/storage-restart/issue-1725/issue-1725.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.03.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.02.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.08.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.01.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.10.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.09.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.07.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.04.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.06.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.05.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/queries/feed-restart/issue-1636/issue-1636.11.script.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/scripts/feed-restart/issue-1636/touch.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/scripts/feed-restart/issue-1636/grep_log.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/scripts/feed-restart/issue-1636/kill_cc_and_nc.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/restart/scripts/feed-restart/issue-1636/cat.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.16.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.17.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.8.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.2.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.14.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.9.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.6.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.11.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.19.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.10.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.5.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.15.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.3.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.18.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.13.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/metadata_only_replication/queries/metadata_recovery/metadata_node_recovery/metadata_node_recovery.12.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/testsuite.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.3.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.8.mgx.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.11.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.7.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.9.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.4.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failback/node_failback/node_failback.6.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/metadata_node/metadata_node.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/metadata_node/metadata_node.4.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/metadata_node/metadata_node.3.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/metadata_node/metadata_node.2.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/bulkload/bulkload.3.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/bulkload/bulkload.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/bulkload/bulkload.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/bulkload/bulkload.4.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/bulkload/bulkload.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/mem_component_recovery/mem_component_recovery.3.node.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/mem_component_recovery/mem_component_recovery.4.sleep.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/mem_component_recovery/mem_component_recovery.2.update.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/mem_component_recovery/mem_component_recovery.1.ddl.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/integrationts/replication/queries/failover/mem_component_recovery/mem_component_recovery.5.query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/clusterts/cluster.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/resources/clusterts/cluster_with_replication.xml">
+</file>
+</checkstyle>

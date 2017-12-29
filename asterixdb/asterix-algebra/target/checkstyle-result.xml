@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/handle/IHandle.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/handle/FieldNameHandle.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/handle/FieldIndexAndTypeHandle.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/AddEquivalenceClassForRecordConstructorRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/InlineUnnestFunctionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ByNameToByHandleFieldAccessRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/CheckFilterExpressionTypeRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/temporal/TranslateIntervalExpressionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceAutogenerateIDRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceSecondaryIndexInsertDeleteRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/RemoveUnusedOneToOneEquiJoinRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/LoadRecordFieldsRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ExtractOrderExpressionsRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/IntroduceLSMComponentFilterRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/BTreeAccessMethod.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/AccessMethodJobGenParams.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/RTreeAccessMethod.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/AccessMethodAnalysisContext.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/InvertedIndexAccessMethod.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/IOptimizableFuncExpr.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/OptimizableOperatorSubTree.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/IntroduceJoinAccessMethodRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/BTreeJobGenParams.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/OptimizableFuncExpr.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/AbstractIntroduceAccessMethodRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/IAccessMethod.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/RTreeJobGenParams.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/IntroduceSelectAccessMethodRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/InvertedIndexJobGenParams.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/am/AccessMethodUtils.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/InlineLeftNtsInSubplanJoinFlatteningVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/InlineSubplanInputForNestedTupleSourceRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/SubplanSpecialFlatteningCheckVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/InlineAllNtsInSubplanVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/AsterixMoveFreeVariableOperatorOutOfSubplanRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/subplan/SubplanFlatteningUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/typecast/StaticTypeCastUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/util/InsertUpsertCheckUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/util/EquivalenceClassUtils.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceStaticTypeCastForInsertRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PullPositionalVariableFromUnnestRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/SimilarityCheckRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/RemoveRedundantSelectRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushLimitIntoOrderByRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/SetClosedRecordConstructorsRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/AsterixExtractFunctionsFromJoinConditionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceDynamicTypeCastForExternalFunctionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/SetAsterixPhysicalOperatorsRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceDynamicTypeCastRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/AsterixIntroduceGroupByCombinerRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/FullTextContainsParameterCheckRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/InjectTypeCastForSwitchCaseRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/SetupCommitExtensionOpRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushFieldAccessRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/FuzzyEqRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/UnnestToDataScanRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushProperJoinThroughProduct.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceEnforcedListTypeRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/NestGroupByRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ByNameToByIndexFieldAccessRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushAggFuncIntoStandaloneAggregateRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/RemoveLeftOuterUnnestForLeftOuterJoinRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceMaterializationForInsertWithSelfScanRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/CancelUnnestWithNestedListifyRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ExtractDistinctByExpressionsRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/RemoveSortInFeedIngestionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/SweepIllegalNonfunctionalFunctions.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceRandomPartitioningFeedComputationRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushGroupByThroughProduct.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/DisjunctivePredicateToJoinRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceUnnestForCollectionToSequenceRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ResolveVariableRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/MetaFunctionToMetaVariableRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceTransactionCommitByAssignOpRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/CountVarToCountOneRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ConstantFoldingRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/IntroduceRapidFrameFlushProjectAssignRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushSimilarityFunctionsBelowJoin.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/CheckInsertUpsertReturningRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/RemoveRedundantListifyRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/FeedScanCollectionToUnnest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/InjectTypeCastForUnionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/ListifyUnnestingFunctionRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/PushAggregateIntoNestedSubplanRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/AsterixInlineVariablesRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/rules/FuzzyJoinRule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/base/AnalysisUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/base/RuleCollections.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/optimizer/base/FuzzyUtils.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/jobgen/QueryLogicalExpressionJobGen.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/IStatementExecutorContext.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/TranslationContext.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/SessionConfig.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/LangExpressionToPlanTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/TypeTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/IStatementExecutorFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/util/ValidateUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/util/PlanTranslationUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/PositionWriter.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/SessionOutput.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/IStatementExecutor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/SqlppExpressionToPlanTranslatorFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/AqlExpressionToPlanTranslatorFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/AqlExpressionToPlanTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/CompiledStatements.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/SqlppExpressionToPlanTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/AqlPlusExpressionToPlanTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/ConstantHelper.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/TranslationException.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/translator/AbstractLangTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/compiler/provider/SqlppCompilationProvider.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/compiler/provider/IRuleSetFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/compiler/provider/AqlCompilationProvider.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/compiler/provider/ILangCompilationProvider.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/compiler/provider/DefaultRuleSetFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/extension/IExtensionStatement.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/extension/IAlgebraExtensionManager.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/CommitPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/ExternalDataLookupPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/BTreeSearchPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/IndexSearchPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/InvertedIndexPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/physical/RTreeSearchPOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/operators/CommitOperator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/base/ILangExpressionToPlanTranslator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/base/OperatorAnnotation.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/base/ILangExpressionToPlanTranslatorFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-algebra/src/main/java/org/apache/asterix/algebra/base/ILangExtension.java">
+</file>
+</checkstyle>

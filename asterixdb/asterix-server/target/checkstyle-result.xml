@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-server/src/test/java/org/apache/asterix/server/test/SampleLocalClusterIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-server/src/test/java/org/apache/asterix/server/test/NCServiceExecutionIT.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-server/src/test/java/org/apache/asterix/server/test/LicensingIT.java">
+</file>
+</checkstyle>

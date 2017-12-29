@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/recovery/RemoteRecoveryManager.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/management/ReplicationManager.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/management/NetworkingUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/management/ReplicationChannel.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/management/ReplicaStateChecker.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/storage/LSMComponentLSNSyncTask.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/storage/LSMComponentProperties.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/storage/LSMIndexFileProperties.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/storage/ReplicaResourcesManager.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/functions/ReplicaFilesRequest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/functions/ReplicaIndexFlushRequest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/functions/ReplicationProtocol.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/functions/ReplicaLogsRequest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/logging/TxnLogUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/logging/RemoteLogMapping.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/logging/ReplicationLogBuffer.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/main/java/org/apache/asterix/replication/logging/TxnLogReplicator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/test/resources/scripts/delete_storage.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-replication/src/test/resources/scripts/kill_cc_and_nc.sh">
+</file>
+</checkstyle>

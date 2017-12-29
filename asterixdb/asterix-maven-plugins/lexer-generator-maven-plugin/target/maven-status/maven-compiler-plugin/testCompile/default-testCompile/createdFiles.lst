@@ -1,0 +1,10 @@
+org/apache/asterix/lexergenerator/Fixtures$1.class
+org/apache/asterix/lexergenerator/LexerNodeAuxFunctionsTest.class
+org/apache/asterix/lexergenerator/LexerNodeMergeNodeTest.class
+org/apache/asterix/lexergenerator/LexerNodeAppendNodeTest.class
+org/apache/asterix/lexergenerator/LexerNodeAppendRuleTest.class
+org/apache/asterix/lexergenerator/LexerNodeAddRuleTest.class
+org/apache/asterix/lexergenerator/Fixtures$2.class
+org/apache/asterix/lexergenerator/Fixtures.class
+org/apache/asterix/lexergenerator/Fixtures$3.class
+org/apache/asterix/lexergenerator/LexerNodeCloneTest.class

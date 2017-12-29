@@ -1,0 +1,14 @@
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/transaction/RecoveryIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixLifecycleIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/transaction/DmlRecoveryIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ClusterExecutionIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ManagixExecutionIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixRestartIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixClusterLifeCycleIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ManagixSqlppExecutionIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AbstractExecutionIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/ReplicationIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixInstallerIntegrationUtil.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/InstallerLicensingIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/AsterixExternalLibraryIT.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-installer/src/test/java/org/apache/asterix/installer/test/MetadataReplicationIT.java

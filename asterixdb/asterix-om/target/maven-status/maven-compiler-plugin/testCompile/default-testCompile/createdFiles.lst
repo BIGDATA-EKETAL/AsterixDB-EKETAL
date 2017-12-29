@@ -1,0 +1,11 @@
+org/apache/asterix/dataflow/data/nontagged/serde/ARecordSerializerDeserializerTest.class
+org/apache/asterix/dataflow/data/nontagged/serde/SerializerDeserializerTestUtils$1.class
+org/apache/asterix/dataflow/data/nontagged/serde/SimpleSerializerDeserializerTest.class
+org/apache/asterix/om/typecomputer/TypeComputerTest.class
+org/apache/asterix/dataflow/data/common/TypeResolverUtilTest.class
+org/apache/asterix/dataflow/data/nontagged/serde/AUnorderedListSerializerDeserializerTest.class
+org/apache/asterix/dataflow/data/nontagged/serde/AOrderedListSerializerDeserializerTest.class
+org/apache/asterix/om/util/JSONDeserializerForTypesTest.class
+org/apache/asterix/dataflow/data/nontagged/serde/SerializerDeserializerTestUtils.class
+org/apache/asterix/om/typecomputer/ExceptionTest.class
+org/apache/asterix/dataflow/data/nontagged/printers/ABinaryPrinterTest.class

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RemoteAsterixDriverKill.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/ManagixActions.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/AbstractRemoteExecutableAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/AbstractExecutableAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/AbstractLocalExecutableAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/CloseOutputStreamAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RunAQLFileAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RunAQLStringAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RemoteCopyFileAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/SleepAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/TimedAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RunSQLPPFileAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/StartDataGeneratorAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/derived/RunRESTIOWaitAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/ParallelActionSet.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/DefaultExceptionListener.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/IExceptionListener.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/IAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/AbstractAction.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/action/base/SequentialActionList.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE4ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/ReportBuilderHelper.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/IDynamicDataEvalReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE1ReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/IStaticDataEvalReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE2ReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE3ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE3ReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/NCLogReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE3ProfileReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/AbstractDynamicDataEvalReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/AbstractStaticDataEvalReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE1ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE5ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/SIE2ReportBuilderRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/OperatorProfilerReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/report/ProfilerReportBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/PresetClusterPerfBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment2BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractSpatialIndexExperiment2Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1ADhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment4RtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment7DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment1ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment6Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment6ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1DRtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2C2Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2D2Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1BSifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment5CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1CShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment3Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment1DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3DhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3PIdxLoadBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1CSifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment3CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment4CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1BDhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment7ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment2ShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1DSifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2B2Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3SifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2B1Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment5RtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment7BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1DDhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment9Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment4ShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment2DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2B8Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment4SifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1ASifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2D4Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment5DhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2C4Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment8CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1ARtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SingleNodeIngestionExperimentBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2C1Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment5SifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/PerfTestAggBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2D1Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment1BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment6BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2B4Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2D8Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment2ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment2SifBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2C8Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1ADhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment4BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment3BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment9ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2A1Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment8DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractLSMBaseExperimentBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1CDhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment1EBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2A8Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1BDhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment5BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractSpatialIndexExperiment3PIdxLoadBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperimentBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment5ShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment8ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1DDhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment7Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment2RtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractLocalExperimentBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1BRtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment4DhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2A4Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment9DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1DShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment2CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment2DhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment3DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment4DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractSpatialIndexExperiment3SIdxCreateAndQueryBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1BShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3ShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment5DhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment6CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment4Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment1CBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment4DhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1CDhbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment8BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment5ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment2DhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment1Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3RtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment5DBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment3DhvbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1AShbtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment9BBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractExperiment8Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment2A2Builder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment4ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/Experiment3ABuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/AbstractPerfLoadBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/builder/SpatialIndexExperiment1CRtreeBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/OrchestratorDGProtocol.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SocketTweetGeneratorConfig.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/RecordCountingServer.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/LSMExperimentConstants.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SocketTweetGenerator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SpatialIndexExperiment2OrchestratorServer.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SpatialQueryGenerator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/LSMExperimentSetRunner.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/OrchestratorServer9.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SyntheticDataGeneratorForSpatialIndexEvaluation.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SocketDataGeneratorExecutable.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SpatialQueryGeneratorConfig.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/OrchestratorServer.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/OrchestratorServer7.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SpatialQueryGeneratorDriver.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/LSMPerfConstants.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SyntheticDataGeneratorConfig.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/client/SocketTweetGeneratorDriver.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/java/org/apache/asterix/experiment/logging/ExperimentLogFormatter.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/logging.properties">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/updateMain.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/killdrivers.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/killscreens.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/2node.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/1node.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/asterix-configuration.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/8node.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/nuclear.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/4node.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/managix-conf.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/configs/asterix-agg.xml">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_1_count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_d.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_1.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_3.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_2.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_compact.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_b.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_1_shbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_c.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_1_dhvbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_a.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_create_dhvbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_4.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_pidx_load.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/2_c.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/3.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/2_b.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/4_2.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/bench_3_load_2.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/1.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/2_a.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/4_1.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/6_a.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_create_shbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/2_d.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_q2.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/bench_3_load.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/4_4.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/6_b.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_compact.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/avg_gram_tokens.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/7_q1.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/6_c.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_a.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_3_count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_b.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_c.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/select-all.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin_index-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/countjoin-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/agg-6-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-minute.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-day.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join-month.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/joingby_index-3-months.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-week.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/agg_bench/join_indexnl-hour.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/4_8.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_1_sif.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_create_rtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_1_dhbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_d.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_1_rtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_create_sif.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/bench_3.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_q2.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_2_count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/8_q1.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/5_4_count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/spatial_3_create_dhbtree.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/bench_count.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/avg_keyword_tokens.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/5_1_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_8_ingest_query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_2_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/asterix_base_4_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/5_4_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/nuclear_base_4_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/5_3_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_types.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_8_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_1_ingest_query.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_4_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/perf_types.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/5_2_ingest.aql">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-experiments/src/main/resources/ingestion-experiment-binary-and-configs/aql/base/base_1_ingest.aql">
+</file>
+</checkstyle>

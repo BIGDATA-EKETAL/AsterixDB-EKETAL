@@ -1,0 +1,6 @@
+org/apache/asterix/aoya/test/AsterixYARNLibraryTestIT.class
+org/apache/asterix/aoya/test/YARNCluster.class
+org/apache/asterix/aoya/test/AsterixYARNInstanceUtil$2.class
+org/apache/asterix/aoya/test/AsterixYARNInstanceUtil.class
+org/apache/asterix/aoya/test/AsterixYARNLifecycleIT.class
+org/apache/asterix/aoya/test/AsterixYARNInstanceUtil$1.class

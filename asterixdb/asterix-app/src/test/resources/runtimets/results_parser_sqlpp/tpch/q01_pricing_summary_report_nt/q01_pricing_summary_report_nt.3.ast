@@ -1,0 +1,254 @@
+DataverseUse tpch
+Set hash_merge=true
+Query:
+SELECT ELEMENT [
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [l_returnflag]
+    :
+    Variable [ Name=$l_returnflag ]
+  )
+  (
+    LiteralExpr [STRING] [l_linestatus]
+    :
+    Variable [ Name=$l_linestatus ]
+  )
+  (
+    LiteralExpr [STRING] [sum_qty]
+    :
+    FunctionCall tpch.sum@1[
+      (
+        SELECT ELEMENT [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=$i ]
+            Field=l
+          ]
+          Field=l_quantity
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [sum_base_price]
+    :
+    FunctionCall tpch.sum@1[
+      (
+        SELECT ELEMENT [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=$i ]
+            Field=l
+          ]
+          Field=l_extendedprice
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [sum_disc_price]
+    :
+    FunctionCall tpch.sum@1[
+      (
+        SELECT ELEMENT [
+        OperatorExpr [
+          FieldAccessor [
+            FieldAccessor [
+              Variable [ Name=$i ]
+              Field=l
+            ]
+            Field=l_extendedprice
+          ]
+          *
+          OperatorExpr [
+            LiteralExpr [LONG] [1]
+            -
+            FieldAccessor [
+              FieldAccessor [
+                Variable [ Name=$i ]
+                Field=l
+              ]
+              Field=l_discount
+            ]
+          ]
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [sum_charge]
+    :
+    FunctionCall tpch.sum@1[
+      (
+        SELECT ELEMENT [
+        OperatorExpr [
+          FieldAccessor [
+            FieldAccessor [
+              Variable [ Name=$i ]
+              Field=l
+            ]
+            Field=l_extendedprice
+          ]
+          *
+          OperatorExpr [
+            LiteralExpr [LONG] [1]
+            -
+            FieldAccessor [
+              FieldAccessor [
+                Variable [ Name=$i ]
+                Field=l
+              ]
+              Field=l_discount
+            ]
+          ]
+          *
+          OperatorExpr [
+            LiteralExpr [LONG] [1]
+            +
+            FieldAccessor [
+              FieldAccessor [
+                Variable [ Name=$i ]
+                Field=l
+              ]
+              Field=l_tax
+            ]
+          ]
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [ave_qty]
+    :
+    FunctionCall tpch.avg@1[
+      (
+        SELECT ELEMENT [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=$i ]
+            Field=l
+          ]
+          Field=l_quantity
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [ave_price]
+    :
+    FunctionCall tpch.avg@1[
+      (
+        SELECT ELEMENT [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=$i ]
+            Field=l
+          ]
+          Field=l_extendedprice
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [ave_disc]
+    :
+    FunctionCall tpch.avg@1[
+      (
+        SELECT ELEMENT [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=$i ]
+            Field=l
+          ]
+          Field=l_discount
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$i ]
+        ]
+      )
+    ]
+  )
+  (
+    LiteralExpr [STRING] [count_order]
+    :
+    FunctionCall tpch.count@1[
+      (
+        SELECT ELEMENT [
+        FunctionCall Metadata.resolve@-1[
+          LiteralExpr [STRING] [l]
+          Variable [ Name=$g ]
+          Variable [ Name=$l_linestatus ]
+          Variable [ Name=$l_returnflag ]
+        ]
+        ]
+        FROM [          Variable [ Name=$g ]
+          AS Variable [ Name=$g ]
+        ]
+      )
+    ]
+  )
+]
+]
+FROM [  FunctionCall Metadata.dataset@1[
+    LiteralExpr [STRING] [LineItem]
+  ]
+  AS Variable [ Name=$l ]
+]
+Where
+  OperatorExpr [
+    FieldAccessor [
+      Variable [ Name=$l ]
+      Field=l_shipdate
+    ]
+    <=
+    LiteralExpr [STRING] [1998-09-02]
+  ]
+Groupby
+  Variable [ Name=$l_returnflag ]
+  :=
+  FieldAccessor [
+    Variable [ Name=$l ]
+    Field=l_returnflag
+  ]
+  Variable [ Name=$l_linestatus ]
+  :=
+  FieldAccessor [
+    Variable [ Name=$l ]
+    Field=l_linestatus
+  ]
+  GROUP AS Variable [ Name=$g ]
+  (
+    l:=Variable [ Name=$l ]
+  )
+
+Orderby
+  Variable [ Name=$l_returnflag ]
+  ASC
+  Variable [ Name=$l_linestatus ]
+  ASC
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementalDataModels>
+  <supplement>
+    <project>
+      <groupId>stax</groupId>
+      <artifactId>stax</artifactId>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+      <properties>
+        <verifiedVersions>1.1.1-dev,1.2.0</verifiedVersions>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <name>SLF4J API Module</name>
+      <organization>
+        <name>QOS.ch</name>
+        <url>http://www.qos.ch</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+      <!-- not yet used
+      <properties>
+        <verifiedVersions>1.6.1,1.7.5</verifiedVersions>
+      </properties>
+      -->
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <name>JLine</name>
+      <url>http://jline.sourceforge.net</url>
+      <organization>
+        <name>JLine</name>
+        <url>http://jline.sourceforge.net</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://jline.sourceforge.net/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://www.jcraft.com/jsch/LICENSE.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <name>XML Pull Parsing API</name>
+      <organization>
+        <name>AOP Alliance</name>
+        <url>http://aopalliance.sourceforge.net/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <name>Java Servlet API</name>
+      <url>https://jcp.org/aboutJava/communityprocess/mrel/jsr154/index.html</url>
+      <organization>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+          <url>http://www.sun.com/cddl/cddl.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jdom</groupId>
+      <artifactId>jdom</artifactId>
+      <licenses>
+        <license>
+          <name>an ASL v1.1-style license</name>
+          <url>licenses/jdom.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>rome</groupId>
+      <artifactId>rome</artifactId>
+      <name>ROME</name>
+      <organization>
+        <name>The Apache Software Foundation</name>
+        <url>http://www.apache.org/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+</supplementalDataModels>

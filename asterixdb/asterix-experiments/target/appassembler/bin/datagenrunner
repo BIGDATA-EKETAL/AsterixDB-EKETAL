@@ -1,0 +1,128 @@
+#!/bin/sh
+# ----------------------------------------------------------------------------
+#  Copyright 2001-2006 The Apache Software Foundation.
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+# ----------------------------------------------------------------------------
+#
+#   Copyright (c) 2001-2006 The Apache Software Foundation.  All rights
+#   reserved.
+
+
+# resolve links - $0 may be a softlink
+PRG="$0"
+
+while [ -h "$PRG" ]; do
+  ls=`ls -ld "$PRG"`
+  link=`expr "$ls" : '.*-> \(.*\)$'`
+  if expr "$link" : '/.*' > /dev/null; then
+    PRG="$link"
+  else
+    PRG=`dirname "$PRG"`/"$link"
+  fi
+done
+
+PRGDIR=`dirname "$PRG"`
+BASEDIR=`cd "$PRGDIR/.." >/dev/null; pwd`
+
+# Reset the REPO variable. If you need to influence this use the environment setup file.
+REPO=
+
+
+# OS specific support.  $var _must_ be set to either true or false.
+cygwin=false;
+darwin=false;
+case "`uname`" in
+  CYGWIN*) cygwin=true ;;
+  Darwin*) darwin=true
+           if [ -z "$JAVA_VERSION" ] ; then
+             JAVA_VERSION="CurrentJDK"
+           else
+             echo "Using Java version: $JAVA_VERSION"
+           fi
+		   if [ -z "$JAVA_HOME" ]; then
+		      if [ -x "/usr/libexec/java_home" ]; then
+			      JAVA_HOME=`/usr/libexec/java_home`
+			  else
+			      JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/${JAVA_VERSION}/Home
+			  fi
+           fi       
+           ;;
+esac
+
+if [ -z "$JAVA_HOME" ] ; then
+  if [ -r /etc/gentoo-release ] ; then
+    JAVA_HOME=`java-config --jre-home`
+  fi
+fi
+
+# For Cygwin, ensure paths are in UNIX format before anything is touched
+if $cygwin ; then
+  [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+  [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+fi
+
+# If a specific java binary isn't specified search for the standard 'java' binary
+if [ -z "$JAVACMD" ] ; then
+  if [ -n "$JAVA_HOME"  ] ; then
+    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+      # IBM's JDK on AIX uses strange locations for the executables
+      JAVACMD="$JAVA_HOME/jre/sh/java"
+    else
+      JAVACMD="$JAVA_HOME/bin/java"
+    fi
+  else
+    JAVACMD=`which java`
+  fi
+fi
+
+if [ ! -x "$JAVACMD" ] ; then
+  echo "Error: JAVA_HOME is not defined correctly." 1>&2
+  echo "  We cannot execute $JAVACMD" 1>&2
+  exit 1
+fi
+
+if [ -z "$REPO" ]
+then
+  REPO="$BASEDIR"/lib
+fi
+
+CLASSPATH="$BASEDIR"/etc:"$REPO"/hyracks-api-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-ipc-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-util-0.3.2-SNAPSHOT.jar:"$REPO"/jackson-databind-2.8.4.jar:"$REPO"/commons-collections4-4.1.jar:"$REPO"/hyracks-control-cc-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-http-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-control-common-0.3.2-SNAPSHOT.jar:"$REPO"/netty-all-4.1.6.Final.jar:"$REPO"/ini4j-0.5.4.jar:"$REPO"/asterix-common-0.9.2-SNAPSHOT.jar:"$REPO"/algebricks-common-0.3.2-SNAPSHOT.jar:"$REPO"/algebricks-core-0.3.2-SNAPSHOT.jar:"$REPO"/algebricks-data-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-dataflow-common-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-dataflow-std-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-lsm-common-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-common-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-common-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-btree-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-bloomfilter-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-rtree-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-lsm-btree-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-lsm-invertedindex-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-storage-am-lsm-rtree-0.3.2-SNAPSHOT.jar:"$REPO"/log4j-1.2.17.jar:"$REPO"/hyracks-data-std-0.3.2-SNAPSHOT.jar:"$REPO"/jackson-core-2.8.4.jar:"$REPO"/jackson-annotations-2.8.4.jar:"$REPO"/asterix-app-0.9.2-SNAPSHOT.jar:"$REPO"/hyracks-control-nc-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-comm-0.3.2-SNAPSHOT.jar:"$REPO"/algebricks-compiler-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-client-0.3.2-SNAPSHOT.jar:"$REPO"/asterix-algebra-0.9.2-SNAPSHOT.jar:"$REPO"/algebricks-rewriter-0.3.2-SNAPSHOT.jar:"$REPO"/asterix-om-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-metadata-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-transactions-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-replication-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-external-data-0.9.2-SNAPSHOT.jar:"$REPO"/hyracks-hdfs-core-0.3.2-SNAPSHOT.jar:"$REPO"/hyracks-hdfs-2.x-0.3.2-SNAPSHOT.jar:"$REPO"/asterix-hivecompat-0.9.2-SNAPSHOT.jar:"$REPO"/commons-logging-api-1.0.4.jar:"$REPO"/hive-shims-common-0.13.0.jar:"$REPO"/hive-common-0.13.0.jar:"$REPO"/rome-fetcher-1.7.4.jar:"$REPO"/rome-1.7.4.jar:"$REPO"/rome-utils-1.7.4.jar:"$REPO"/jdom2-2.0.6.jar:"$REPO"/hive-serde-0.13.0.jar:"$REPO"/hive-shims-0.13.0.jar:"$REPO"/hive-shims-0.20-0.13.0.jar:"$REPO"/hive-shims-common-secure-0.13.0.jar:"$REPO"/hive-shims-0.20S-0.13.0.jar:"$REPO"/hive-shims-0.23-0.13.0.jar:"$REPO"/libthrift-0.9.0.jar:"$REPO"/core-io-1.3.2.jar:"$REPO"/rxjava-1.1.8.jar:"$REPO"/hadoop-mapreduce-client-core-2.2.0.jar:"$REPO"/hadoop-yarn-common-2.2.0.jar:"$REPO"/hadoop-yarn-api-2.2.0.jar:"$REPO"/guice-3.0.jar:"$REPO"/javax.inject-1.jar:"$REPO"/aopalliance-1.0.jar:"$REPO"/jersey-test-framework-grizzly2-1.9.jar:"$REPO"/jersey-test-framework-core-1.9.jar:"$REPO"/javax.servlet-api-3.0.1.jar:"$REPO"/jersey-client-1.9.jar:"$REPO"/jersey-grizzly2-1.9.jar:"$REPO"/grizzly-http-2.1.2.jar:"$REPO"/grizzly-framework-2.1.2.jar:"$REPO"/gmbal-api-only-3.0.0-b023.jar:"$REPO"/management-api-3.0.0-b012.jar:"$REPO"/grizzly-http-server-2.1.2.jar:"$REPO"/grizzly-rcm-2.1.2.jar:"$REPO"/grizzly-http-servlet-2.1.2.jar:"$REPO"/javax.servlet-3.1.jar:"$REPO"/jersey-guice-1.9.jar:"$REPO"/guice-servlet-3.0.jar:"$REPO"/netty-3.6.2.Final.jar:"$REPO"/xml-apis-1.4.01.jar:"$REPO"/asterix-lang-aql-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-events-0.9.2-SNAPSHOT.jar:"$REPO"/zookeeper-3.4.5.jar:"$REPO"/jline-0.9.94.jar:"$REPO"/netty-3.2.2.Final.jar:"$REPO"/hyracks-net-0.3.2-SNAPSHOT.jar:"$REPO"/algebricks-runtime-0.3.2-SNAPSHOT.jar:"$REPO"/asterix-lang-common-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-runtime-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-fuzzyjoin-0.9.2-SNAPSHOT.jar:"$REPO"/asterix-lang-sqlpp-0.9.2-SNAPSHOT.jar:"$REPO"/commons-lang-2.5.jar:"$REPO"/guava-18.0.jar:"$REPO"/hadoop-common-2.2.0.jar:"$REPO"/hadoop-annotations-2.2.0.jar:"$REPO"/commons-cli-1.2.jar:"$REPO"/commons-math-2.1.jar:"$REPO"/xmlenc-0.52.jar:"$REPO"/commons-net-3.1.jar:"$REPO"/servlet-api-2.5.jar:"$REPO"/jetty-6.1.26.jar:"$REPO"/jetty-util-6.1.26.jar:"$REPO"/jersey-core-1.9.jar:"$REPO"/jersey-json-1.9.jar:"$REPO"/jettison-1.1.jar:"$REPO"/stax-api-1.0.1.jar:"$REPO"/jaxb-impl-2.2.3-1.jar:"$REPO"/jackson-jaxrs-1.8.3.jar:"$REPO"/jackson-xc-1.8.3.jar:"$REPO"/jersey-server-1.9.jar:"$REPO"/asm-3.1.jar:"$REPO"/jasper-compiler-5.5.23.jar:"$REPO"/jasper-runtime-5.5.23.jar:"$REPO"/jsp-api-2.1.jar:"$REPO"/commons-el-1.0.jar:"$REPO"/jets3t-0.6.1.jar:"$REPO"/commons-configuration-1.6.jar:"$REPO"/commons-collections-3.2.1.jar:"$REPO"/commons-digester-1.8.jar:"$REPO"/commons-beanutils-1.7.0.jar:"$REPO"/commons-beanutils-core-1.8.0.jar:"$REPO"/slf4j-log4j12-1.7.5.jar:"$REPO"/jackson-core-asl-1.8.8.jar:"$REPO"/jackson-mapper-asl-1.8.8.jar:"$REPO"/avro-1.7.4.jar:"$REPO"/paranamer-2.3.jar:"$REPO"/snappy-java-1.0.4.1.jar:"$REPO"/protobuf-java-2.5.0.jar:"$REPO"/hadoop-auth-2.2.0.jar:"$REPO"/jsch-0.1.42.jar:"$REPO"/commons-compress-1.4.1.jar:"$REPO"/xz-1.0.jar:"$REPO"/asterix-active-0.9.2-SNAPSHOT.jar:"$REPO"/hadoop-hdfs-2.2.0.jar:"$REPO"/commons-daemon-1.0.13.jar:"$REPO"/asterix-tools-0.9.2-SNAPSHOT-tests.jar:"$REPO"/httpclient-4.5.2.jar:"$REPO"/commons-logging-1.1.1.jar:"$REPO"/commons-codec-1.9.jar:"$REPO"/httpcore-4.4.5.jar:"$REPO"/commons-io-2.5.jar:"$REPO"/commons-httpclient-3.0.1.jar:"$REPO"/junit-4.12.jar:"$REPO"/hamcrest-core-1.3.jar:"$REPO"/commons-lang3-3.5.jar:"$REPO"/args4j-2.33.jar:"$REPO"/jaxb-api-2.2.12.jar:"$REPO"/sshj-0.13.0.jar:"$REPO"/bcpkix-jdk15on-1.51.jar:"$REPO"/jzlib-1.1.3.jar:"$REPO"/slf4j-api-1.7.7.jar:"$REPO"/bcprov-jdk15on-1.51.jar:"$REPO"/asterix-experiments-0.9.2-SNAPSHOT.jar
+
+ENDORSED_DIR=
+if [ -n "$ENDORSED_DIR" ] ; then
+  CLASSPATH=$BASEDIR/$ENDORSED_DIR/*:$CLASSPATH
+fi
+
+if [ -n "$CLASSPATH_PREFIX" ] ; then
+  CLASSPATH=$CLASSPATH_PREFIX:$CLASSPATH
+fi
+
+# For Cygwin, switch paths to Windows format before running java
+if $cygwin; then
+  [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+  [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+  [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+  [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+  [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+fi
+
+exec "$JAVACMD" $JAVA_OPTS  \
+  -classpath "$CLASSPATH" \
+  -Dapp.name="datagenrunner" \
+  -Dapp.pid="$$" \
+  -Dapp.repo="$REPO" \
+  -Dapp.home="$BASEDIR" \
+  -Dbasedir="$BASEDIR" \
+  org.apache.asterix.experiment.client.SocketTweetGeneratorDriver \
+  "$@"

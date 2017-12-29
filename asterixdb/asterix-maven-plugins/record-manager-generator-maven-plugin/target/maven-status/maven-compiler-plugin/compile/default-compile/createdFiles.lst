@@ -1,0 +1,8 @@
+org/apache/asterix/recordmanagergenerator/RecordType$Field.class
+org/apache/asterix/recordmanagergenerator/RecordType.class
+org/apache/asterix/recordmanagergenerator/RecordType$1.class
+org/apache/asterix/recordmanagergenerator/RecordType$Type.class
+org/apache/asterix/recordmanagergenerator/Generator$TemplateType.class
+org/apache/asterix/recordmanagergenerator/Generator$1.class
+org/apache/asterix/recordmanagergenerator/Generator.class
+org/apache/asterix/recordmanagergenerator/RecordManagerGeneratorMojo.class

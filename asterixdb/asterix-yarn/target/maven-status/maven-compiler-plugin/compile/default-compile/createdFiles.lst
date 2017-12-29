@@ -1,0 +1,14 @@
+org/apache/asterix/aoya/AsterixApplicationMaster$1.class
+org/apache/asterix/aoya/AsterixApplicationMaster$RMCallbackHandler.class
+org/apache/asterix/aoya/AsterixApplicationMaster$LaunchAsterixContainer.class
+org/apache/asterix/aoya/AConstants.class
+org/apache/asterix/aoya/AsterixYARNClient$1.class
+org/apache/asterix/aoya/AsterixYARNClient$Mode.class
+org/apache/asterix/aoya/Utils$1.class
+org/apache/asterix/aoya/Deleter.class
+org/apache/asterix/aoya/AsterixApplicationMaster.class
+org/apache/asterix/aoya/Utils.class
+org/apache/asterix/aoya/AsterixYARNClient$DFSResourceCoordinate.class
+org/apache/asterix/aoya/HDFSBackup.class
+org/apache/asterix/aoya/AsterixYARNClient.class
+org/apache/asterix/aoya/AsterixApplicationMaster$NMCallbackHandler.class

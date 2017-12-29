@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/src/main/java/org/apache/asterix/extension/grammar/GrammarExtensionMojo.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/src/test/java/org/apache/asterix/extension/grammar/GrammarExtensionMojoTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/src/test/java/org/apache/asterix/lang/extension/EchoStatement.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/src/test/resources/unit/basic-test/basic-test-plugin-config.xml">
+</file>
+</checkstyle>

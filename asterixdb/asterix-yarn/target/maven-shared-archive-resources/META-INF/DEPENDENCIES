@@ -1,0 +1,317 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache AsterixDB - asterix-yarn
+
+
+From: 'an unknown organization'
+  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+    License: Public Domain 
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:bundle:18.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - rome (http://rometools.com/rome) com.rometools:rome:jar:1.7.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - rome-fetcher (http://rometools.com/rome-fetcher) com.rometools:rome-fetcher:jar:1.7.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - rome-utils (http://rometools.com/rome-utils) com.rometools:rome-utils:jar:1.7.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ParaNamer Core (http://paranamer.codehaus.org/paranamer) com.thoughtworks.paranamer:paranamer:jar:2.3
+    License: BSD  (LICENSE.txt)
+  - commons-beanutils  commons-beanutils:commons-beanutils:jar:1.7.0
+
+  - commons-logging-api  commons-logging:commons-logging-api:jar:1.0.4
+
+  - rxjava (https://github.com/ReactiveX/RxJava) io.reactivex:rxjava:jar:1.1.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - servlet-api  javax.servlet:servlet-api:jar:2.5
+
+  - jsp-api  javax.servlet.jsp:jsp-api:jar:2.1
+
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
+    License: BSD  (LICENSE.txt)
+  - stax-utils (http://stax-utils.dev.java.net/) net.java.dev.stax-utils:stax-utils:jar:20060502
+    License: BSD  (https://stax-utils.dev.java.net/source/browse/*checkout*/stax-utils/LICENSE)
+  - Apache Thrift (http://thrift.apache.org) org.apache.thrift:libthrift:pom:0.9.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - zookeeper  org.apache.zookeeper:zookeeper:pom:3.4.5
+
+  - ini4j (http://www.ini4j.org) org.ini4j:ini4j:jar:0.5.4
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XZ for Java (http://tukaani.org/xz/java.html) org.tukaani:xz:jar:1.0
+    License: Public Domain 
+  - StAX (http://stax.codehaus.org/) stax:stax:jar:1.1.1-dev
+
+  - StAX API (http://stax.codehaus.org/) stax:stax-api:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis:jar:1.4.01
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: The SAX License  (http://www.saxproject.org/copying.html)    License: The W3C License  (http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip)
+  - xmlenc Library (http://xmlenc.sourceforge.net) xmlenc:xmlenc:jar:0.52
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'Apache Software Foundation' (http://jakarta.apache.org/)
+  - HttpClient (http://jakarta.apache.org/httpcomponents/httpclient-3.x/) commons-httpclient:commons-httpclient:jar:3.1
+    License: Apache License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Apache Log4j (http://logging.apache.org/log4j/1.2/) log4j:log4j:bundle:1.2.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Hadoop Annotations  org.apache.hadoop:hadoop-annotations:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Hadoop HDFS  org.apache.hadoop:hadoop-hdfs:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hadoop-mapreduce-client-core  org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus Plexus' (http://codehaus-plexus.github.io/)
+  - Plexus Common Utilities (http://codehaus-plexus.github.io/plexus-utils/) org.codehaus.plexus:plexus-utils:jar:3.0.24
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Couchbase, Inc.' (http://couchbase.com)
+  - Couchbase JVM Core IO (http://couchbase.com) com.couchbase.client:core-io:jar:1.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com)
+  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.8.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Google' (http://www.google.com/)
+  - Protocol Buffer Java API (http://code.google.com/p/protobuf) com.google.protobuf:protobuf-java:bundle:2.5.0
+    License: New BSD license  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'Google, Inc.' (http://www.google.com)
+  - Google Guice - Core Library (http://code.google.com/p/google-guice/guice/) com.google.inject:guice:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Extensions - Servlet (http://code.google.com/p/google-guice/extensions-parent/guice-servlet/) com.google.inject.extensions:guice-servlet:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JBoss, a division of Red Hat, Inc.' (http://www.jboss.org)
+  - The Netty Project (http://www.jboss.org/netty/) org.jboss.netty:netty:bundle:3.2.2.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'JDOM' (http://www.jdom.org)
+  - JDOM (http://www.jdom.org) org.jdom:jdom2:jar:2.0.6
+    License: Similar to Apache License but with the acknowledgment clause removed  (https://raw.github.com/hunterhacker/jdom/master/LICENSE.txt)
+
+From: 'Kohsuke Kawaguchi' (http://www.kohsuke.org/)
+  - args4j (http://args4j.kohsuke.org/args4j/) args4j:args4j:bundle:2.33
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'MojoHaus' (http://www.mojohaus.org)
+  - Appassembler :: Generic Bootstrapper (http://www.mojohaus.org/appassembler-booter/appassembler/appassembler-booter) org.codehaus.mojo.appassembler:appassembler-booter:jar:2.0.0
+    License: The MIT License  (https://opensource.org/licenses/MIT)
+  - Appassembler :: Model (http://www.mojohaus.org/appassembler-model/appassembler/appassembler-model) org.codehaus.mojo.appassembler:appassembler-model:jar:2.0.0
+    License: The MIT License  (https://opensource.org/licenses/MIT)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty Server (http://www.eclipse.org/jetty/jetty-parent/project/modules/jetty) org.mortbay.jetty:jetty:jar:6.1.26
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty Utilities (http://www.eclipse.org/jetty/jetty-parent/project/jetty-util) org.mortbay.jetty:jetty-util:jar:6.1.26
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+  - ASM Core (http://asm.objectweb.org/asm/) asm:asm:jar:3.1
+
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - jersey-core (https://jersey.java.net/jersey-core/) com.sun.jersey:jersey-core:bundle:1.9
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-server (https://jersey.java.net/jersey-server/) com.sun.jersey:jersey-server:bundle:1.9
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - Java Architecture for XML Binding (http://jaxb.java.net/) javax.xml.bind:jaxb-api:jar:2.2.12
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.5
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.7.5
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J Simple Binding (http://www.slf4j.org) org.slf4j:slf4j-simple:jar:1.7.5
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://commons.apache.org/)
+  - Commons Configuration (http://commons.apache.org/${pom.artifactId.substring(8)}/) commons-configuration:commons-configuration:jar:1.6
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Digester (http://jakarta.apache.org/commons/digester/) commons-digester:commons-digester:jar:1.8
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+  - EL (http://jakarta.apache.org/commons/el/) commons-el:commons-el:jar:1.0
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons BeanUtils Core (http://commons.apache.org/beanutils/) commons-beanutils:commons-beanutils-core:jar:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons CLI (http://commons.apache.org/cli/) commons-cli:commons-cli:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Codec (http://commons.apache.org/codec/) commons-codec:commons-codec:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Daemon (http://commons.apache.org/daemon/) commons-daemon:commons-daemon:jar:1.0.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons IO (http://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Net (http://commons.apache.org/net/) commons-net:commons-net:jar:3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Avro (http://avro.apache.org) org.apache.avro:avro:jar:1.7.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Collections (http://commons.apache.org/proper/commons-collections/) org.apache.commons:commons-collections4:jar:4.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Compress (http://commons.apache.org/compress/) org.apache.commons:commons-compress:jar:1.4.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Math (http://commons.apache.org/math/) org.apache.commons:commons-math:jar:2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Common (http://hive.apache.org/hive-common) org.apache.hive:hive-common:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Serde (http://hive.apache.org/hive-serde) org.apache.hive:hive-serde:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims (http://hive.apache.org/hive-shims) org.apache.hive:hive-shims:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims 0.20 (http://hive.apache.org/hive-shims-0.20) org.apache.hive.shims:hive-shims-0.20:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims 0.20S (http://hive.apache.org/hive-shims-0.20S) org.apache.hive.shims:hive-shims-0.20S:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims 0.23 (http://hive.apache.org/hive-shims-0.23) org.apache.hive.shims:hive-shims-0.23:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims Common (http://hive.apache.org/hive-shims-common) org.apache.hive.shims:hive-shims-common:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Shims Secure Common (http://hive.apache.org/hive-shims-common-secure) org.apache.hive.shims:hive-shims-common-secure:jar:0.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jasper-runtime (http://tomcat.apache.org/jasper-runtime) tomcat:jasper-runtime:jar:5.5.23
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - asterix-active (https://asterixdb.apache.org/asterix-active/) org.apache.asterix:asterix-active:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-algebra (https://asterixdb.apache.org/asterix-algebra/) org.apache.asterix:asterix-algebra:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-app (https://asterixdb.apache.org/asterix-app/) org.apache.asterix:asterix-app:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-client-helper (https://asterixdb.apache.org/asterix-client-helper/) org.apache.asterix:asterix-client-helper:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-common (https://asterixdb.apache.org/asterix-common/) org.apache.asterix:asterix-common:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-external-data (https://asterixdb.apache.org/asterix-external-data/) org.apache.asterix:asterix-external-data:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-fuzzyjoin (https://asterixdb.apache.org/asterix-fuzzyjoin/) org.apache.asterix:asterix-fuzzyjoin:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-hivecompat (https://asterixdb.apache.org/asterix-hivecompat/) org.apache.asterix:asterix-hivecompat:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-lang-aql (https://asterixdb.apache.org/asterix-lang-aql/) org.apache.asterix:asterix-lang-aql:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-lang-common (https://asterixdb.apache.org/asterix-lang-common/) org.apache.asterix:asterix-lang-common:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-lang-sqlpp (https://asterixdb.apache.org/asterix-lang-sqlpp/) org.apache.asterix:asterix-lang-sqlpp:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-metadata (https://asterixdb.apache.org/asterix-metadata/) org.apache.asterix:asterix-metadata:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-om (https://asterixdb.apache.org/asterix-om/) org.apache.asterix:asterix-om:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-replication (https://asterixdb.apache.org/asterix-replication/) org.apache.asterix:asterix-replication:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-runtime (https://asterixdb.apache.org/asterix-runtime/) org.apache.asterix:asterix-runtime:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-server (https://asterixdb.apache.org/asterix-server/) org.apache.asterix:asterix-server:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - asterix-transactions (https://asterixdb.apache.org/asterix-transactions/) org.apache.asterix:asterix-transactions:jar:0.9.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.5
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-common (https://asterixdb.apache.org/algebricks/algebricks-common/) org.apache.hyracks:algebricks-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-compiler (https://asterixdb.apache.org/algebricks/algebricks-compiler/) org.apache.hyracks:algebricks-compiler:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-core (https://asterixdb.apache.org/algebricks/algebricks-core/) org.apache.hyracks:algebricks-core:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-data (https://asterixdb.apache.org/algebricks/algebricks-data/) org.apache.hyracks:algebricks-data:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-rewriter (https://asterixdb.apache.org/algebricks/algebricks-rewriter/) org.apache.hyracks:algebricks-rewriter:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - algebricks-runtime (https://asterixdb.apache.org/algebricks/algebricks-runtime/) org.apache.hyracks:algebricks-runtime:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-api (https://asterixdb.apache.org/hyracks/hyracks-api/) org.apache.hyracks:hyracks-api:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-client (https://asterixdb.apache.org/hyracks/hyracks-client/) org.apache.hyracks:hyracks-client:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-comm (https://asterixdb.apache.org/hyracks/hyracks-comm/) org.apache.hyracks:hyracks-comm:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-control-cc (https://asterixdb.apache.org/hyracks/hyracks-control/hyracks-control-cc/) org.apache.hyracks:hyracks-control-cc:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-control-common (https://asterixdb.apache.org/hyracks/hyracks-control/hyracks-control-common/) org.apache.hyracks:hyracks-control-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-control-nc (https://asterixdb.apache.org/hyracks/hyracks-control/hyracks-control-nc/) org.apache.hyracks:hyracks-control-nc:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-data-std (https://asterixdb.apache.org/hyracks/hyracks-data/hyracks-data-std/) org.apache.hyracks:hyracks-data-std:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-dataflow-common (https://asterixdb.apache.org/hyracks/hyracks-dataflow-common/) org.apache.hyracks:hyracks-dataflow-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-dataflow-std (https://asterixdb.apache.org/hyracks/hyracks-dataflow-std/) org.apache.hyracks:hyracks-dataflow-std:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-hdfs-2.x (https://asterixdb.apache.org/hyracks/hyracks-hdfs/hyracks-hdfs-2.x/) org.apache.hyracks:hyracks-hdfs-2.x:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-hdfs-core (https://asterixdb.apache.org/hyracks/hyracks-hdfs/hyracks-hdfs-core/) org.apache.hyracks:hyracks-hdfs-core:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-http (https://asterixdb.apache.org/hyracks/hyracks-http/) org.apache.hyracks:hyracks-http:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-ipc (https://asterixdb.apache.org/hyracks/hyracks-ipc/) org.apache.hyracks:hyracks-ipc:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-nc-service (https://asterixdb.apache.org/hyracks/hyracks-control/hyracks-nc-service/) org.apache.hyracks:hyracks-nc-service:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-net (https://asterixdb.apache.org/hyracks/hyracks-net/) org.apache.hyracks:hyracks-net:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-bloomfilter (https://asterixdb.apache.org/hyracks/hyracks-storage-am-bloomfilter/) org.apache.hyracks:hyracks-storage-am-bloomfilter:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-btree (https://asterixdb.apache.org/hyracks/hyracks-storage-am-btree/) org.apache.hyracks:hyracks-storage-am-btree:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-common (https://asterixdb.apache.org/hyracks/hyracks-storage-am-common/) org.apache.hyracks:hyracks-storage-am-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-lsm-btree (https://asterixdb.apache.org/hyracks/hyracks-storage-am-lsm-btree/) org.apache.hyracks:hyracks-storage-am-lsm-btree:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-lsm-common (https://asterixdb.apache.org/hyracks/hyracks-storage-am-lsm-common/) org.apache.hyracks:hyracks-storage-am-lsm-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-lsm-invertedindex (https://asterixdb.apache.org/hyracks/hyracks-storage-am-lsm-invertedindex/) org.apache.hyracks:hyracks-storage-am-lsm-invertedindex:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-lsm-rtree (https://asterixdb.apache.org/hyracks/hyracks-storage-am-lsm-rtree/) org.apache.hyracks:hyracks-storage-am-lsm-rtree:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-am-rtree (https://asterixdb.apache.org/hyracks/hyracks-storage-am-rtree/) org.apache.hyracks:hyracks-storage-am-rtree:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-storage-common (https://asterixdb.apache.org/hyracks/hyracks-storage-common/) org.apache.hyracks:hyracks-storage-common:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - hyracks-util (https://asterixdb.apache.org/hyracks/hyracks-util/) org.apache.hyracks:hyracks-util:jar:0.3.2-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Netty Project' (http://netty.io/)
+  - The Netty Project (http://netty.io/) io.netty:netty:bundle:3.6.2.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - Netty/All-in-One (http://netty.io/netty-all/) io.netty:netty-all:jar:4.1.6.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'xerial.org' (http://www.xerial.org/)
+  - Snappy for Java (http://github.com/xerial/snappy-java/) org.xerial.snappy:snappy-java:bundle:1.0.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

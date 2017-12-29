@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/rewrites/AQLRewriterFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/rewrites/AqlQueryRewriter.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/rewrites/visitor/AqlBuiltinFunctionRewriteVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/rewrites/AqlStatementRewriter.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/util/RangeMapBuilder.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/util/AQLVariableSubstitutionUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/util/AQLFormatPrintUtil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/statement/SubscribeFeedStatement.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/parser/AQLParserFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/parser/FunctionParser.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLCloneAndSubstituteVariablesVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLInlineUdfsVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLFormatPrintVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLAstPrintVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLToSQLPPPrintVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AQLAstPrintVisitorFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/base/AbstractAqlAstVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/base/IAQLPlusVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/base/AbstractAqlSimpleExpressionVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/base/AbstractAqlQueryExpressionVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/base/IAQLVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/visitor/AqlDeleteRewriteVisitor.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/expression/MetaVariableExpr.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/expression/UnionExpr.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/expression/FLWOGRExpression.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/clause/MetaVariableClause.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/clause/DistinctClause.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/clause/JoinClause.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-lang-aql/src/main/java/org/apache/asterix/lang/aql/clause/ForClause.java">
+</file>
+</checkstyle>

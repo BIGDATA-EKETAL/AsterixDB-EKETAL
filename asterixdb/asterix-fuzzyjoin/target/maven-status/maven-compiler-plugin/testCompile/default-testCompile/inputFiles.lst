@@ -1,0 +1,13 @@
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/AbstractTokenizableDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/IntArrayBagSmallDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/DBLPDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/FuzzyJoinTestUtil.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/AbstractDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/PUBSmallDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/UsersVisitorsSmallDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/IntArraySetSmallDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/FuzzyJoinTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/DBLPSmallDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/PUBDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/tests/dataset/PublicationsDataset.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-fuzzyjoin/src/test/java/org/apache/asterix/fuzzyjoin/similarity/SimilarityMetricEditDistanceTest.java

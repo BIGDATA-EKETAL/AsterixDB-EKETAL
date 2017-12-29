@@ -1,0 +1,10 @@
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/serde/ARecordSerializerDeserializerTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/printers/ABinaryPrinterTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/serde/AUnorderedListSerializerDeserializerTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/serde/SerializerDeserializerTestUtils.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/om/util/JSONDeserializerForTypesTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/serde/AOrderedListSerializerDeserializerTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/om/typecomputer/TypeComputerTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/nontagged/serde/SimpleSerializerDeserializerTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/dataflow/data/common/TypeResolverUtilTest.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-om/src/test/java/org/apache/asterix/om/typecomputer/ExceptionTest.java

@@ -1,0 +1,16 @@
+org/apache/asterix/runtime/evaluators/staticcodegen/GatherEvaluatorFactoryCreationVisitor$1.class
+org/apache/asterix/runtime/evaluators/staticcodegen/CodeGenUtil$ClassByteCodeAction.class
+org/apache/asterix/runtime/evaluators/staticcodegen/EvaluatorMissingCheckVisitor$InjectMissingCheckVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/GatherEvaluatorCreationVisitor$1.class
+org/apache/asterix/runtime/evaluators/staticcodegen/EvaluatorMissingCheckVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/EvaluatorNullCheckVisitor$InjectNullCheckVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/GatherEvaluatorFactoryCreationVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/GatherInnerClassVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/RenameClassVisitor$1.class
+org/apache/asterix/runtime/evaluators/staticcodegen/EvaluatorMissingCheckVisitor$ConstructorVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/EvaluatorNullCheckVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/GatherEvaluatorCreationVisitor.class
+org/apache/asterix/runtime/evaluators/plugin/EvaluatorGeneratorMojo.class
+org/apache/asterix/runtime/evaluators/staticcodegen/RenameClassVisitor.class
+org/apache/asterix/runtime/evaluators/staticcodegen/CodeGenUtil.class
+org/apache/asterix/runtime/evaluators/staticcodegen/MethodIdentifier.class

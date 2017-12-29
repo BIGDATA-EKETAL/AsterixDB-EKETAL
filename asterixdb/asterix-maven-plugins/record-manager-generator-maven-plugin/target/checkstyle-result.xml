@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/record-manager-generator-maven-plugin/src/main/java/org/apache/asterix/recordmanagergenerator/RecordType.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/record-manager-generator-maven-plugin/src/main/java/org/apache/asterix/recordmanagergenerator/RecordManagerGeneratorMojo.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/record-manager-generator-maven-plugin/src/main/java/org/apache/asterix/recordmanagergenerator/Generator.java">
+</file>
+</checkstyle>

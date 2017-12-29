@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/AsterixHelperExecution.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/AsterixHelper.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/ShutdownAllCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/GetClusterStateCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/ShutdownCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/SleepCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/RemoteCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/ClientCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/commands/WaitForClusterCommand.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-client-helper/src/main/java/org/apache/asterix/clienthelper/Args.java">
+</file>
+</checkstyle>

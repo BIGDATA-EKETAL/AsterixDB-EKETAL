@@ -1,0 +1,66 @@
+Query:
+SELECT [
+FunctionCall null.sqrt@1[
+  OperatorExpr [
+    FieldAccessor [
+      FunctionCall Metadata.resolve@-1[
+        LiteralExpr [STRING] [t]
+        Variable [ Name=$u ]
+        Variable [ Name=$root ]
+        Variable [ Name=#1 ]
+      ]
+      Field=a
+    ]
+    *
+    FieldAccessor [
+      FunctionCall Metadata.resolve@-1[
+        LiteralExpr [STRING] [t]
+        Variable [ Name=$u ]
+        Variable [ Name=$root ]
+        Variable [ Name=#1 ]
+      ]
+      Field=b
+    ]
+  ]
+]
+root
+]
+FROM [  FunctionCall Metadata.dataset@1[
+    LiteralExpr [STRING] [tbl_name]
+  ]
+  AS Variable [ Name=$t ]
+]
+Groupby
+  Variable [ Name=$root ]
+  :=
+  FunctionCall null.sqrt@1[
+    OperatorExpr [
+      FieldAccessor [
+        Variable [ Name=$t ]
+        Field=a
+      ]
+      *
+      FieldAccessor [
+        Variable [ Name=$t ]
+        Field=b
+      ]
+    ]
+  ]
+  GROUP AS Variable [ Name=#1 ]
+  (
+    t:=Variable [ Name=$t ]
+  )
+
+Let Variable [ Name=$u ]
+  :=
+  Variable [ Name=$root ]
+ HAVING
+  OperatorExpr [
+    Variable [ Name=$root ]
+    >
+    LiteralExpr [LONG] [0]
+  ]
+Orderby
+  Variable [ Name=$u ]
+  ASC
+

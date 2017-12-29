@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Fri, 29 Dec 2017 09:25:23 -0500
+Source: apache-asterixdb-server
+Binary: apache-asterixdb-server
+Architecture: all
+Version: 0.9.2~SNAPSHOT
+Distribution: development
+Urgency: low
+Maintainer: Ian Maxon <ian@maxons.email>
+Changed-By: Ian Maxon <ian@maxons.email>
+Description:
+ apache-asterixdb-server - Apache AsterixDB - a scalable, open source Big Data Management System (BDMS)
+Changes:
+ apache-asterixdb-server (0.9.2~SNAPSHOT) development; urgency=low
+Checksums-Sha1:
+ a1ad1503d1794ae8316392ac07d711783d35cf24 55954990 asterix-server_0.9.2~SNAPSHOT_all.deb
+Checksums-Sha256:
+ f6390dfbd3599aa047d8b9001caf5e6177f93622bbec0b4b01a8c3e80b905851 55954990 asterix-server_0.9.2~SNAPSHOT_all.deb
+Files:
+ 45c9b715ac20f8ad38f44ecc92b18575 55954990 databases extra asterix-server_0.9.2~SNAPSHOT_all.deb

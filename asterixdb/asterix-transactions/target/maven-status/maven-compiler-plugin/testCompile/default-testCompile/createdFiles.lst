@@ -1,0 +1,15 @@
+org/apache/asterix/transaction/management/service/locking/Request$3.class
+org/apache/asterix/transaction/management/service/locking/Request$4.class
+org/apache/asterix/transaction/management/service/locking/LockManagerUnitTest$1.class
+org/apache/asterix/transaction/management/service/locking/Locker.class
+org/apache/asterix/transaction/management/service/locking/Request$5.class
+org/apache/asterix/transaction/management/service/locking/TestRuntimeContextProvider.class
+org/apache/asterix/transaction/management/service/locking/LockManagerUnitTest.class
+org/apache/asterix/transaction/management/service/locking/Request$1.class
+org/apache/asterix/transaction/management/service/locking/Requester.class
+org/apache/asterix/transaction/management/service/locking/Request$6.class
+org/apache/asterix/transaction/management/service/locking/Request$8.class
+org/apache/asterix/transaction/management/service/locking/Request$2.class
+org/apache/asterix/transaction/management/service/locking/Request.class
+org/apache/asterix/transaction/management/service/locking/Request$7.class
+org/apache/asterix/transaction/management/service/locking/Request$Kind.class

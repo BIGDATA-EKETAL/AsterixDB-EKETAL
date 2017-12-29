@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/TokenAux.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/NodeChainFactory.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/LexerGenerator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/RuleDigitSequence.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/RuleChar.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/RulePartial.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/RuleAnythingUntil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/RuleEpsilon.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rules/Rule.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/Token.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorString.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorNothing.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorChar.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorDigitSequence.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorSignOrNothing.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorToken.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorCharOrNothing.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorSign.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGenerator.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorCaseInsensitiveChar.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/rulegenerators/RuleGeneratorAnythingUntil.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/LexerNode.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/main/java/org/apache/asterix/lexergenerator/LexerGeneratorMojo.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeMergeNodeTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeAddRuleTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/Fixtures.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeCloneTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeAuxFunctionsTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeAppendRuleTest.java">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-maven-plugins/lexer-generator-maven-plugin/src/test/java/org/apache/asterix/lexergenerator/LexerNodeAppendNodeTest.java">
+</file>
+</checkstyle>

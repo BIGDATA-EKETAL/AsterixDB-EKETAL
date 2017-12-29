@@ -1,0 +1,9 @@
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/RCFile.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/NonSyncDataOutputBuffer.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/NonSyncDataInputBuffer.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/RCFileRecordReader.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/RCFileInputFormat.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/SchemaAwareCompressionInputStream.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/CodecPool.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/SchemaAwareCompressionOutputStream.java
+/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-hivecompat/src/main/java/org/apache/asterix/hivecompat/io/InputFormatChecker.java

@@ -1,0 +1,45 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache AsterixDB - asterix-client-helper
+
+
+From: 'an unknown organization'
+  - stax-utils (http://stax-utils.dev.java.net/) net.java.dev.stax-utils:stax-utils:jar:20060502
+    License: BSD  (https://stax-utils.dev.java.net/source/browse/*checkout*/stax-utils/LICENSE)
+  - StAX (http://stax.codehaus.org/) stax:stax:jar:1.1.1-dev
+
+  - StAX API (http://stax.codehaus.org/) stax:stax-api:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus Plexus' (http://codehaus-plexus.github.io/)
+  - Plexus Common Utilities (http://codehaus-plexus.github.io/plexus-utils/) org.codehaus.plexus:plexus-utils:jar:3.0.24
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Kohsuke Kawaguchi' (http://www.kohsuke.org/)
+  - args4j (http://args4j.kohsuke.org/args4j/) args4j:args4j:bundle:2.33
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'MojoHaus' (http://www.mojohaus.org)
+  - Appassembler :: Generic Bootstrapper (http://www.mojohaus.org/appassembler-booter/appassembler/appassembler-booter) org.codehaus.mojo.appassembler:appassembler-booter:jar:2.0.0
+    License: The MIT License  (https://opensource.org/licenses/MIT)
+  - Appassembler :: Model (http://www.mojohaus.org/appassembler-model/appassembler/appassembler-model) org.codehaus.mojo.appassembler:appassembler-model:jar:2.0.0
+    License: The MIT License  (https://opensource.org/licenses/MIT)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons IO (http://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

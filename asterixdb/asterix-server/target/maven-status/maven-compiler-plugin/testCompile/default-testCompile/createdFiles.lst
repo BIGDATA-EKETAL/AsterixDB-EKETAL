@@ -1,0 +1,6 @@
+org/apache/asterix/server/test/LicensingIT.class
+org/apache/asterix/server/test/NCServiceExecutionIT.class
+org/apache/asterix/server/test/NCServiceExecutionIT$1.class
+org/apache/asterix/server/test/NCServiceExecutionIT$KillCommand.class
+org/apache/asterix/server/test/NCServiceExecutionIT$2.class
+org/apache/asterix/server/test/SampleLocalClusterIT.class

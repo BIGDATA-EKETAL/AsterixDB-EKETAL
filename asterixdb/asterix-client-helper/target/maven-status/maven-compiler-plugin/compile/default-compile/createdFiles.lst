@@ -1,0 +1,13 @@
+org/apache/asterix/clienthelper/commands/GetClusterStateCommand.class
+org/apache/asterix/clienthelper/commands/RemoteCommand.class
+org/apache/asterix/clienthelper/commands/RemoteCommand$Method.class
+org/apache/asterix/clienthelper/AsterixHelperExecution$1.class
+org/apache/asterix/clienthelper/commands/ClientCommand.class
+org/apache/asterix/clienthelper/commands/WaitForClusterCommand.class
+org/apache/asterix/clienthelper/commands/SleepCommand.class
+org/apache/asterix/clienthelper/commands/ShutdownCommand.class
+org/apache/asterix/clienthelper/Args.class
+org/apache/asterix/clienthelper/commands/ClientCommand$Command.class
+org/apache/asterix/clienthelper/AsterixHelper.class
+org/apache/asterix/clienthelper/AsterixHelperExecution.class
+org/apache/asterix/clienthelper/commands/ShutdownAllCommand.class

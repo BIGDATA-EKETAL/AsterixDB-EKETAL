@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/bin/runall.sh">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/teardown/drop.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/setup/create.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q3.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q12.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q10.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q1.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q14.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q7.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q16.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q11.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q13.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q17.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q6.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q4.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q15.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/queries/q19.sqlpp">
+</file>
+<file name="/Users/paulabueno/asterixdb-EKETAL/AsterixDB-EKETAL/asterixdb/asterix-benchmark/src/main/resources/benchmarks/tpch/load/template.sqlpp">
+</file>
+</checkstyle>
